@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.SlidingWindowPractice", "RateLimiter.SlidingWindowPractice\RateLimiter.SlidingWindowPractice.csproj", "{192BCE59-FA69-443A-B0CA-052C9913502B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B4894B3-80C6-4856-A51F-9A51FE33D291}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192BCE59-FA69-443A-B0CA-052C9913502B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192BCE59-FA69-443A-B0CA-052C9913502B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192BCE59-FA69-443A-B0CA-052C9913502B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192BCE59-FA69-443A-B0CA-052C9913502B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

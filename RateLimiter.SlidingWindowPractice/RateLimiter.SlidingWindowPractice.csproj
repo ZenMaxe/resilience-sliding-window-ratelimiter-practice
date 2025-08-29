@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5"/>
+        <PackageReference Include="NRedisStack" Version="1.1.0" />
+        <PackageReference Include="Polly" Version="8.6.3" />
+        <PackageReference Include="StackExchange.Redis" Version="2.9.11" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Infrastructure\Storage\Redis\Mapper\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Infrastructure/Storage/Redis/Scripts/*.lua" />
+    </ItemGroup>
+
+</Project>
